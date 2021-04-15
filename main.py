@@ -5,8 +5,8 @@ url = 'https://api.github.com/repos/facebook/react/issues'
 # you can change/add query to test any available filter -- &labels:bug
 query = '?q=state:open'
 # your github user name
-username = 'ismaeluyghur'
+username = '********'
 # your github access token
-token = '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'
+token = '*********'
 
 request_util.get_issue_has_pull_request(url, query,  username, token)
