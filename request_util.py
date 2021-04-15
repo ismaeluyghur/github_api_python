@@ -24,7 +24,7 @@ def get_issue_has_pull_request(url, query, username, token):
 
     print(len(issues_with_pull_request))
 
-
+# mocking function to test the GET api function above
 def test_get_updated_issues_multiple_pages(self):
     with open("issues_multiple_first_page.json", "r") as issues_first_file:
         mock_response_first_page = issues_first_file.read()
